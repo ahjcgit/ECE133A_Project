@@ -13,7 +13,7 @@ drive.mount('/content/drive')
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("./OnlineNews/OnlineNewsPopularity.csv")
+df = pd.read_csv("./OnlineNewsPopularity.csv")
 
 # Preprocessing & Clean-up
 url_array = df.iloc[:, 0].values  # extract news urls mapped by index
